@@ -19,6 +19,7 @@
     "moment": "^2.26.0",
     "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
+    "numeral": "2.0.6",
     "react": "16.0.0",
     "react-addons-shallow-compare": "^15.6.2",
     "react-dates": "12.7.0",
@@ -38,7 +39,7 @@
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
-    "heroku-postbuild":"yarn run build:prod"
+    "heroku-postbuild": "yarn run build:prod"
   },
   "eslintConfig": {
     "extends": "react-app"
