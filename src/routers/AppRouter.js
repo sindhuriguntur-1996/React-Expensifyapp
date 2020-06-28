@@ -7,7 +7,7 @@ import ExpenseDashBoard from './../components/ExpenseDashBoard';
 import LoginPage from './../components/LoginPage';
 import createHistory from 'history/createBrowserHistory';
 import PrivateRoute from './PrivateRoute';
-import PublicRoute from './PublicRoute'
+import PublicRoute from './publicRoute';
 
 export const history = createHistory();
 
